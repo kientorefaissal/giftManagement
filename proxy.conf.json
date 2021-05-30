@@ -1,0 +1,14 @@
+{
+    "/parrainage": {
+      "target": "http://localhost:8080",
+      "secure": true,
+      "changeOrigin": true
+    },
+
+    "/auth": {
+      "target": "http://localhost:8080",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {"^/auth" : ""}
+    }
+}

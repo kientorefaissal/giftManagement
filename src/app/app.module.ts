@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthGuardService } from './services/authguard.service';
 import { ErrorComponent } from './error/error.component';
 import { MaterialModule } from './material/material.module';
+import { MenuprincipalComponent } from './menuprincipal/menuprincipal.component';
 
 
 @Injectable()
@@ -31,7 +32,8 @@ export class XhrInterceptor implements HttpInterceptor {
     AppComponent,
     AuthComponent,
     HomeComponent,
-    ErrorComponent
+    ErrorComponent,
+    MenuprincipalComponent
   ],
   imports: [
     BrowserModule,

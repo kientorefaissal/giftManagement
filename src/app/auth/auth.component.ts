@@ -37,7 +37,7 @@ import { FormGroup, FormControl } from '@angular/forms';
         display: flex;
         justify-content: flex-end;
       }
-    `,
+    `
   ]
 })
 export class AuthComponent {
